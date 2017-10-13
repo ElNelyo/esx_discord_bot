@@ -27,10 +27,10 @@ https://github.com/ElNelyo/esx_discord_bot.git
 4.Create your Discord Bot
 
 1.	Go to your server settings :
-[webhook]http://prntscr.com/gx298g)
+[display image](http://prntscr.com/gx298g)
 
 2.	Create webhooks (you can change image and name:
-[webhooks](http://prntscr.com/gx2ai7)
+[display image](http://prntscr.com/gx2ai7)
 
 3. Copy the webhook link
 
@@ -65,7 +65,7 @@ TriggerEvent("esx:giveweaponalert",sourceXPlayer.name,targetXPlayer.name,weaponL
 ```
 
 You should have something like this
-[webhooks](http://prntscr.com/gx2hrk)
+[display image](http://prntscr.com/gx2hrk)
 
 7. Add this line in **esx_society/server/main.lua**
 
@@ -76,7 +76,7 @@ TriggerEvent("esx:washingmoneyalert",xPlayer.name,amount)
 ```
 
 You should have something like this
-[webhooks](http://prntscr.com/gx2jc5)
+[display image](http://prntscr.com/gx2jc5)
 
 
 
