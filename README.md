@@ -92,5 +92,13 @@ You should have something like this
 
 
 
-
+## Feature
+Discord alert : 
+- Kill
+- Enter in a police vehicle (exept for policeman)
+- Chat 
+- Connecting / Disconnecting
+- Steal a vehicle
+- Giving Item / Money / Weapon 
+- Blacklisted vehicle
 

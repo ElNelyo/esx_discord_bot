@@ -24,10 +24,10 @@ Locales['fr'] = {
 
 	['server_policecar'] = 'vehicule police alerte',
 	['server_carjacking'] = 'vehicule volé alerte',
-	['client_carjacking'] = 'a volé',
+	['user_carjacking'] = 'a volé',
 
 	['server_kill'] = 'nouvelle mort',
-	['client_kill'] = 'a été tué par',
-	['client_kill_environnement'] = 'est mort par suicide ou attaque PNJ',
+	['user_kill'] = 'a été tué par',
+	['user_kill_environnement'] = 'est mort par suicide ou attaque PNJ',
 	['with'] ='avec',
 }
