@@ -38,7 +38,12 @@ https://github.com/ElNelyo/esx_discord_bot.git
 
 6.Add these lines in **esx_extended/server/main.lua**
 
+
+
+
 In ```RegisterServerEvent('esx:giveInventoryItem')```
+
+
 
 **item_standart** :
 
@@ -64,8 +69,13 @@ TriggerEvent("esx:givemoneybankalert",sourceXPlayer.name,targetXPlayer.name,item
 TriggerEvent("esx:giveweaponalert",sourceXPlayer.name,targetXPlayer.name,weaponLabel)
 ```
 
+
+
 You should have something like this
 [display image](http://prntscr.com/gx2hrk)
+
+
+
 
 7.Add this line in **esx_society/server/main.lua**
 
@@ -74,6 +84,8 @@ In ```RegisterServerEvent('esx_society:washMoney')```
 ```
 TriggerEvent("esx:washingmoneyalert",xPlayer.name,amount)
 ```
+
+
 
 You should have something like this
 [display image](http://prntscr.com/gx2jc5)
