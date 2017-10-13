@@ -4,7 +4,7 @@ TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 --Send the message to your discord server
 function sendToDiscord (name,message,color)
-  local DiscordWebHook ="https://discordapp.com/api/webhooks/366299007930073091/b5YKimk1JPlWfGXuH-8AgdkF3kLQR3I3gzb2RYeml2mn01NsLwscFtVY8qJxXnf0y0tt"
+  local DiscordWebHook = Config.webhook
   -- Modify here your discordWebHook username = name, content = message,embeds = embeds
 
 local embeds = {
@@ -122,7 +122,7 @@ end)
 RegisterServerEvent("esx:jackingcar")
 AddEventHandler("esx:jackingcar", function(model)
    local xPlayer = ESX.GetPlayerFromId(source)
-   sendToDiscord(_U('server_carjacking'),xPlayer.name.." "..('user_carjacking').." ".. model,Config.purple)
+   sendToDiscord(_U('server_carjacking'),xPlayer.name.." ".._('user_carjacking').." ".. model,Config.purple)
 
 end)
 
