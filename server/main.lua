@@ -153,7 +153,7 @@ AddEventHandler('esx:killerlog', function(t,killer, kilerT) -- t : 0 = NPC, 1 = 
        end
     end
   else
-     sendToDiscord(_U('server_kill'), xPlayer.name .." ".. _('user!!_kill_environnement'),Config.red)
+     sendToDiscord(_U('server_kill'), xPlayer.name .." ".. _('user_kill_environnement'),Config.red)
   end
 
 end)
