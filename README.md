@@ -67,7 +67,7 @@ TriggerEvent("esx:giveweaponalert",sourceXPlayer.name,targetXPlayer.name,weaponL
 You should have something like this
 [display image](http://prntscr.com/gx2hrk)
 
-7. Add this line in **esx_society/server/main.lua**
+7.Add this line in **esx_society/server/main.lua**
 
 In ```RegisterServerEvent('esx_society:washMoney')```
 
