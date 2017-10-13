@@ -1,0 +1,33 @@
+Locales['fr'] = {
+	['server'] = 'serveur',
+	['server_start'] = 'le serveur a démarré',
+	['server_chat'] = 'chat',
+
+	['server_connecting'] = 'nouvelle connexion',
+	['user_connecting'] = 's\'est connecté',
+
+	['server_disconnecting'] = 'nouvelle déconnexion',
+	['user_disconnecting'] = 's\'est déconnecté',
+
+	['server_item_transfer'] = 'nouvelle transaction (objet)',
+	['server_money_transfer'] = 'nouvelle transaction (argent)',
+	['server_moneybank_transfer'] = 'nouvelle transaction (argent banque)',
+	['server_weapon_transfer'] = 'nouvelle transaction (arme)',
+
+	['user_gives_to'] = 'a donné a',
+
+	['server_washingmoney'] = 'nouveau blanchiement';
+	['user_washingmoney'] = 'a blanchi',
+
+	['server_blacklistedvehicle'] = 'vehicule interdit alerte',
+	['user_entered_in'] = 'est entré dans :',
+
+	['server_policecar'] = 'vehicule police alerte',
+	['server_carjacking'] = 'vehicule volé alerte',
+	['client_carjacking'] = 'a volé',
+
+	['server_kill'] = 'nouvelle mort',
+	['client_kill'] = 'a été tué par',
+	['client_kill_environnement'] = 'est mort par suicide ou attaque PNJ',
+	['with'] ='avec',
+}
