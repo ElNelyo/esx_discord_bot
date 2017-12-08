@@ -11,6 +11,8 @@ end)
 RegisterNetEvent('esx:playerLoaded')
 AddEventHandler('esx:playerLoaded', function(xPlayer)
   PlayerData = xPlayer
+	TriggerServerEvent("esx:playerconnected")
+
 
 end)
 

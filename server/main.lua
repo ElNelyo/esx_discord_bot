@@ -36,7 +36,8 @@ end)
 
 
 -- Event when a player is connecting
-AddEventHandler('playerConnecting', function()
+RegisterServerEvent("esx:playerconnected")
+AddEventHandler('esx:playerconnected', function()
   if(settings.LogLoginServer)then
     sendToDiscord(_U('server_connecting'), GetPlayerName(source) .." ".. _('user_connecting'),Config.grey)
   end
